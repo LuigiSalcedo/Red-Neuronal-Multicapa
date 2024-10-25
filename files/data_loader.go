@@ -7,7 +7,7 @@ import (
 )
 
 func LoadData() [][]float64 {
-	file, err := os.Open("refactor_data_formated.csv")
+	file, err := os.Open("scaled_data.csv")
 	if err != nil {
 		panic(err)
 	}
